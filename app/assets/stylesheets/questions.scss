@@ -1,0 +1,27 @@
+$gray: #F4F4F4;
+$font-stack: arial, sans-serif;
+
+body {
+  background-color: $gray;
+}
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  font-color: grey;
+}
+
+a {
+  font-size: 14px;
+    font-color: grey;
+  &:hover {
+   font-color: black;
+ }
+}
+
+.answer {
+  background-color: #feffe1;
+  border-left-color: grey;
+}
